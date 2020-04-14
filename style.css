@@ -176,3 +176,27 @@ i {
 p{
     margin-bottom: 5px;
 }
+#gameRules {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    font-size: 1.4em;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+ol{
+    width: 60%;
+    text-align: justify;
+}
+#rulesOkay{
+    color: #000000;
+    text-transform: capitalize;
+    position: relative;
+    left: 2%;
+    background-color: rgba(256, 256, 256, 0.8);
+    width: 60px;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 8px;
+}

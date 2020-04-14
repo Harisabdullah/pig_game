@@ -15,22 +15,6 @@ var dice0 = document.querySelector('.dice-0');
 var dice1 = document.querySelector('.dice-1');
 
 targetValue = document.getElementById('target');
-
-// Notifying Rules
- alert(`GAME RULES:
-
-- The game has 2 players, playing in rounds
-
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score.
-
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn.
-
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn.
-
-- In the first round, whoever reaches the score of 20 first. Wins!. But after that you can specify the winning target.
-
-`)
-
 // initializing app
 init();
 // Only for text enteries
