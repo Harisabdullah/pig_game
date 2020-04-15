@@ -106,11 +106,12 @@ body {
 
 button{
     position: absolute;
-    width: 200px;
+    display: block;
+    background: none;
+    width: 15%;
     left: 50%;
     transform: translateX(-50%);
-    color: #555;
-    background: none;
+    color: #555;;
     border: none;
     font-family: Lato;
     font-size: 20px;
@@ -199,4 +200,9 @@ ol{
     border-radius: 15px;
     padding: 3px;
     margin-top: 8px;
+}
+
+.icons{
+    width: 20px;
+    margin-right: 5px;
 }

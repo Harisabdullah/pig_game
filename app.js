@@ -60,7 +60,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		// 2. Check if player won the game
 		ifWinner();
 	} else {
-		nextPlayer();
+		setTimeout(nextPlayer, 500)
+		// nextPlayer();
 	}
 
 });
@@ -118,7 +119,6 @@ function init(){
 
 	document.getElementById('target-box').style.display = 'none';
 	target = parseInt(document.getElementById('target').value);
-	console.log(target);
 	
 	if (target%2 !== 0 && target%2 !== 1){
 		target = 20;
